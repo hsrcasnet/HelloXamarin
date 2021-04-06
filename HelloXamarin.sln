@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloXamarin.Android", "HelloXamarin.Android\HelloXamarin.Android.csproj", "{94A11420-9AFE-443D-965E-CACC682518E5}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HelloXamarin.Shared", "HelloXamarin.Shared\HelloXamarin.Shared.shproj", "{477DEE48-3281-4F87-A23E-CE8720B71E4E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloXamarin.Mobile", "HelloXamarin.Mobile\HelloXamarin.Mobile.csproj", "{6E7F5C07-5823-4185-AEF0-2338230E2F1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloXamarin.Core", "HelloXamarin.Mobile\HelloXamarin.Core.csproj", "{6E7F5C07-5823-4185-AEF0-2338230E2F1C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloXamarin.iOS", "HelloXamarin.iOS\HelloXamarin.iOS.csproj", "{101E3060-8799-4119-8A7A-4F86A01C0C84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Sharing Projects", "Code Sharing Projects", "{846CAF4D-AC0C-4C84-B8B7-02AC5F649952}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -69,6 +71,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{477DEE48-3281-4F87-A23E-CE8720B71E4E} = {846CAF4D-AC0C-4C84-B8B7-02AC5F649952}
+		{6E7F5C07-5823-4185-AEF0-2338230E2F1C} = {846CAF4D-AC0C-4C84-B8B7-02AC5F649952}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A656BD7-1A67-4A50-8463-5DA3B9F60FA9}

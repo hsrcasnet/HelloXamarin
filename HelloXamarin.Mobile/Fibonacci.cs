@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloXamarin.Mobile
+namespace HelloXamarin.Core
 {
     public class Fibonacci
     {
