@@ -133,8 +133,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloXamarin.Mobile\HelloXamarin.Core.csproj">
-      <Project>{6e7f5c07-5823-4185-aef0-2338230e2f1c}</Project>
+    <ProjectReference Include="..\HelloXamarin.Core\HelloXamarin.Core.csproj">
+      <Project>{3f2477b6-9849-46fc-9d14-b949cddf0fd5}</Project>
       <Name>HelloXamarin.Core</Name>
     </ProjectReference>
   </ItemGroup>
